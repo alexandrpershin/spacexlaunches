@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SpaceX Launches</string>
+
+    <string name="label_no_internet">No internet connection. Please turn on internet connection and swipe down to refresh.</string>
+    <string name="error_message_unknown_error">Unknown error occurred. Please contact support team</string>
+    <string name="label_mission_name">Mission name</string>
+    <string name="label_launch_date">Launch date</string>
+    <string name="label_mission_id">Mission id</string>
+    <string name="title_filter_by_enabled_tbd">Filter by enabled TBD</string>
+    <string name="title_filter_by_disabled_tbd">Filter by disabled TBD</string>
+    <string name="title_load_all">Load all</string>
+    <string name="label_launch_success">Launch success</string>
+    <string name="label_rocket_type">Rocket type</string>
+    <string name="label_rocket_description">Description</string>
+    <string name="title_rocket_details">Rocket details</string>
+    <string name="status_message_success">Success</string>
+    <string name="status_message_failure">Failure</string>
+    <string name="message_no_details">No details</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/item_tbd_enabled"
+        android:title="@string/title_filter_by_enabled_tbd" />
+
+    <item android:id="@+id/item_tbd_disabled"
+        android:title="@string/title_filter_by_disabled_tbd" />
+
+    <item android:id="@+id/item_all"
+        android:title="@string/title_load_all" />
+</menu>

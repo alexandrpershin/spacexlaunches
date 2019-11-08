@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/ClickableStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/margin_normal"
+    android:layout_marginTop="@dimen/margin_small"
+    android:layout_marginEnd="@dimen/margin_normal"
+    android:layout_marginBottom="@dimen/margin_small"
+    android:elevation="5dp"
+    app:cardCornerRadius="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/missionIconIv"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_jetpack_rocket" />
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/TextLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/label_mission_name"
+            app:layout_constraintStart_toEndOf="@+id/missionIconIv"
+            app:layout_constraintTop_toTopOf="@+id/missionIconIv" />
+
+        <TextView
+            android:id="@+id/missionNameTv"
+            style="@style/TextInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="Iridium NEXT Mission 4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView3"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+
+        <TextView
+            android:id="@+id/textView7"
+            style="@style/TextLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/label_mission_id"
+            app:layout_constraintEnd_toEndOf="@+id/launchDateTv"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/launchDateTv"
+            app:layout_constraintTop_toBottomOf="@+id/launchDateTv" />
+
+        <TextView
+            android:id="@+id/missionIdTv"
+            style="@style/TextInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="F3364BF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView7"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+        <TextView
+            android:id="@+id/textView9"
+            style="@style/TextLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/label_launch_date"
+            app:layout_constraintEnd_toEndOf="@+id/missionNameTv"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/missionNameTv"
+            app:layout_constraintTop_toBottomOf="@+id/missionNameTv" />
+
+        <TextView
+            android:id="@+id/launchDateTv"
+            style="@style/TextInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2017-12-06"
+            app:layout_constraintEnd_toEndOf="@+id/textView9"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView9"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
